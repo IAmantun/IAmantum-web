@@ -10,15 +10,14 @@ export default function Cta() {
         </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-          {/* TODO: reemplazar por el WhatsApp y el email definitivos de IAmantum */}
           <a
-            href="https://wa.me/000000000000"
+            href="https://wa.me/5491124549051"
             className="rounded-full bg-brand-blue px-8 py-3.5 text-sm font-semibold text-white shadow-lg shadow-brand-blue/30 transition hover:bg-brand-cyan hover:text-brand-dark"
           >
             Escribir por WhatsApp
           </a>
           <a
-            href="mailto:contacto@iamantum.com"
+            href="mailto:iamantum.ai@gmail.com"
             className="rounded-full border border-white/15 px-8 py-3.5 text-sm font-semibold text-white/80 transition hover:border-white/40 hover:text-white"
           >
             Escribir por email

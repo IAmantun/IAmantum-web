@@ -39,9 +39,16 @@ export default function Footer() {
             Contacto
           </h4>
           <ul className="mt-3 space-y-2 text-sm text-white/60">
-            {/* TODO: reemplazar por los datos definitivos */}
-            <li>contacto@iamantum.com</li>
-            <li>WhatsApp: +00 000 000 0000</li>
+            <li>
+              <a href="mailto:iamantum.ai@gmail.com" className="transition hover:text-white">
+                iamantum.ai@gmail.com
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/5491124549051" className="transition hover:text-white">
+                WhatsApp: +54 9 11 2454-9051
+              </a>
+            </li>
           </ul>
         </div>
 
