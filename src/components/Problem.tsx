@@ -17,10 +17,10 @@ export default function Problem() {
   return (
     <section className="mx-auto max-w-6xl px-6 py-24">
       <div className="mx-auto max-w-2xl text-center">
-        <h2 className="font-display text-3xl font-semibold text-white sm:text-4xl">
+        <h2 className="font-display text-3xl font-semibold text-[var(--fg)] sm:text-4xl">
           ¿Te suena familiar?
         </h2>
-        <p className="mt-4 text-white/60">
+        <p className="mt-4 text-[var(--fg-60)]">
           Estos son los tres frenos más comunes que le impiden crecer a un negocio que
           ya tiene demanda.
         </p>
@@ -30,12 +30,12 @@ export default function Problem() {
         {points.map((p) => (
           <div
             key={p.title}
-            className="card-border rounded-2xl bg-brand-panel/60 p-7"
+            className="card-border rounded-2xl bg-[var(--bg-elevated)]/60 p-7"
           >
-            <h3 className="font-display text-lg font-semibold text-white">
+            <h3 className="font-display text-lg font-semibold text-[var(--fg)]">
               {p.title}
             </h3>
-            <p className="mt-3 text-sm leading-relaxed text-white/60">{p.body}</p>
+            <p className="mt-3 text-sm leading-relaxed text-[var(--fg-60)]">{p.body}</p>
           </div>
         ))}
       </div>

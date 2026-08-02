@@ -36,13 +36,13 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="servicios" className="section-glow border-y border-white/5 py-24">
+    <section id="servicios" className="section-glow border-y border-[var(--border-5)] py-24">
       <div className="mx-auto max-w-6xl px-6">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="font-display text-3xl font-semibold text-white sm:text-4xl">
+          <h2 className="font-display text-3xl font-semibold text-[var(--fg)] sm:text-4xl">
             Lo que construimos para vos
           </h2>
-          <p className="mt-4 text-white/60">
+          <p className="mt-4 text-[var(--fg-60)]">
             Tres piezas que funcionan solas o combinadas, según lo que tu negocio
             necesite hoy.
           </p>
@@ -52,19 +52,19 @@ export default function Services() {
           {services.map((s) => (
             <div
               key={s.number}
-              className="card-border flex flex-col rounded-2xl bg-brand-panel/60 p-8 transition hover:border-brand-blue/40"
+              className="card-border flex flex-col rounded-2xl bg-[var(--bg-elevated)]/60 p-8 transition hover:border-brand-blue/40"
             >
-              <span className="font-display text-sm font-semibold text-brand-cyan">
+              <span className="font-display text-sm font-semibold text-[var(--accent-text)]">
                 {s.number}
               </span>
-              <h3 className="font-display mt-3 text-2xl font-semibold text-white">
+              <h3 className="font-display mt-3 text-2xl font-semibold text-[var(--fg)]">
                 {s.title}
               </h3>
-              <p className="mt-1 text-sm font-medium text-white/50">{s.tag}</p>
-              <p className="mt-4 text-sm leading-relaxed text-white/60">{s.body}</p>
-              <ul className="mt-6 space-y-2.5 border-t border-white/5 pt-6">
+              <p className="mt-1 text-sm font-medium text-[var(--fg-50)]">{s.tag}</p>
+              <p className="mt-4 text-sm leading-relaxed text-[var(--fg-60)]">{s.body}</p>
+              <ul className="mt-6 space-y-2.5 border-t border-[var(--border-5)] pt-6">
                 {s.items.map((it) => (
-                  <li key={it} className="flex items-start gap-2.5 text-sm text-white/70">
+                  <li key={it} className="flex items-start gap-2.5 text-sm text-[var(--fg-70)]">
                     <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gradient-to-r from-brand-cyan to-brand-blue" />
                     {it}
                   </li>

@@ -2,13 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --bg: #0A0E14;
+  --bg-elevated: #10161F;
+  --fg: #E7ECF3;
+  --fg-80: rgba(231, 236, 243, 0.85);
+  --fg-70: rgba(231, 236, 243, 0.7);
+  --fg-60: rgba(231, 236, 243, 0.6);
+  --fg-50: rgba(231, 236, 243, 0.5);
+  --fg-40: rgba(231, 236, 243, 0.4);
+  --fg-30: rgba(231, 236, 243, 0.3);
+  --border-40: rgba(255, 255, 255, 0.4);
+  --border-15: rgba(255, 255, 255, 0.15);
+  --border-10: rgba(255, 255, 255, 0.1);
+  --border-5: rgba(255, 255, 255, 0.05);
+  --bg-5: rgba(255, 255, 255, 0.05);
+  --navbar-bg: rgba(10, 14, 20, 0.8);
+  --accent-text: #00BFFF;
+}
+
+:root.light {
+  --bg: #F4F6F9;
+  --bg-elevated: #FFFFFF;
+  --fg: #0F1520;
+  --fg-80: rgba(15, 21, 32, 0.85);
+  --fg-70: rgba(15, 21, 32, 0.72);
+  --fg-60: rgba(15, 21, 32, 0.62);
+  --fg-50: rgba(15, 21, 32, 0.52);
+  --fg-40: rgba(15, 21, 32, 0.44);
+  --fg-30: rgba(15, 21, 32, 0.34);
+  --border-40: rgba(15, 21, 32, 0.4);
+  --border-15: rgba(15, 21, 32, 0.14);
+  --border-10: rgba(15, 21, 32, 0.1);
+  --border-5: rgba(15, 21, 32, 0.06);
+  --bg-5: rgba(15, 21, 32, 0.04);
+  --navbar-bg: rgba(255, 255, 255, 0.8);
+  --accent-text: #0072CE;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: #0A0E14;
-  color: #E7ECF3;
+  background-color: var(--bg);
+  color: var(--fg);
+  transition: background-color 0.25s ease, color 0.25s ease;
 }
 
 .section-glow {
@@ -18,7 +57,7 @@ body {
 }
 
 .card-border {
-  border: 1px solid rgba(255,255,255,0.08);
+  border: 1px solid var(--border-10);
 }
 
 .gradient-text {
@@ -26,4 +65,17 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+.show-dark {
+  display: block;
+}
+.show-light {
+  display: none;
+}
+:root.light .show-dark {
+  display: none;
+}
+:root.light .show-light {
+  display: block;
 }

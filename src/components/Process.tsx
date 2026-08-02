@@ -25,10 +25,10 @@ export default function Process() {
   return (
     <section id="proceso" className="mx-auto max-w-6xl px-6 py-24">
       <div className="mx-auto max-w-2xl text-center">
-        <h2 className="font-display text-3xl font-semibold text-white sm:text-4xl">
+        <h2 className="font-display text-3xl font-semibold text-[var(--fg)] sm:text-4xl">
           Cómo trabajamos
         </h2>
-        <p className="mt-4 text-white/60">
+        <p className="mt-4 text-[var(--fg-60)]">
           Un proceso simple, pensado para negocios que están empezando a
           automatizarse.
         </p>
@@ -36,14 +36,14 @@ export default function Process() {
 
       <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {steps.map((s) => (
-          <div key={s.step} className="card-border rounded-2xl bg-brand-panel/60 p-6">
+          <div key={s.step} className="card-border rounded-2xl bg-[var(--bg-elevated)]/60 p-6">
             <span className="font-display text-2xl font-semibold text-brand-blue">
               {s.step}
             </span>
-            <h3 className="font-display mt-3 text-base font-semibold text-white">
+            <h3 className="font-display mt-3 text-base font-semibold text-[var(--fg)]">
               {s.title}
             </h3>
-            <p className="mt-2 text-sm leading-relaxed text-white/60">{s.body}</p>
+            <p className="mt-2 text-sm leading-relaxed text-[var(--fg-60)]">{s.body}</p>
           </div>
         ))}
       </div>

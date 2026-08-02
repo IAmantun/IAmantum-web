@@ -1,11 +1,11 @@
 export default function Cta() {
   return (
-    <section id="contacto" className="section-glow border-y border-white/5 py-24">
+    <section id="contacto" className="section-glow border-y border-[var(--border-5)] py-24">
       <div className="mx-auto max-w-3xl px-6 text-center">
-        <h2 className="font-display text-3xl font-semibold text-white sm:text-4xl">
+        <h2 className="font-display text-3xl font-semibold text-[var(--fg)] sm:text-4xl">
           ¿Listo para automatizar tu negocio?
         </h2>
-        <p className="mt-4 text-white/60">
+        <p className="mt-4 text-[var(--fg-60)]">
           Agenda una consultoría de diagnóstico gratuita. Sin compromiso, 100% online.
         </p>
 
@@ -18,7 +18,7 @@ export default function Cta() {
           </a>
           <a
             href="mailto:iamantum.ai@gmail.com"
-            className="rounded-full border border-white/15 px-8 py-3.5 text-sm font-semibold text-white/80 transition hover:border-white/40 hover:text-white"
+            className="rounded-full border border-[var(--border-15)] px-8 py-3.5 text-sm font-semibold text-[var(--fg-80)] transition hover:border-[var(--border-40)] hover:text-[var(--fg)]"
           >
             Escribir por email
           </a>
