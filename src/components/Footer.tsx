@@ -45,16 +45,54 @@ export default function Footer() {
           <h4 className="text-xs font-semibold uppercase tracking-widest text-[var(--fg-40)]">
             Contacto
           </h4>
-          <ul className="mt-3 space-y-2 text-sm text-[var(--fg-60)]">
-            <li>
+          <ul className="mt-3 space-y-2.5 text-sm text-[var(--fg-60)]">
+            <li className="flex items-center justify-center gap-2 lg:justify-start">
+              <svg
+                className="h-4 w-4 shrink-0 text-[var(--accent-text)]"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <rect x="3" y="5" width="18" height="14" rx="2" />
+                <path d="m3 7 9 6 9-6" />
+              </svg>
               <a href="mailto:iamantum.ai@gmail.com" className="transition hover:text-[var(--fg)]">
                 iamantum.ai@gmail.com
               </a>
             </li>
-            <li>
+            <li className="flex items-center justify-center gap-2 lg:justify-start">
+              <svg
+                className="h-4 w-4 shrink-0 text-[var(--accent-text)]"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5Z" />
+              </svg>
               <a href="https://wa.me/5491124549051" className="transition hover:text-[var(--fg)]">
                 WhatsApp: +54 9 11 2454-9051
               </a>
+            </li>
+            <li className="flex items-center justify-center gap-2 lg:justify-start">
+              <svg
+                className="h-4 w-4 shrink-0 text-[var(--accent-text)]"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              <span>Buenos Aires, Argentina</span>
             </li>
           </ul>
         </div>
