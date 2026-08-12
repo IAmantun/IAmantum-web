@@ -26,12 +26,12 @@ export default function LogoShine() {
         d="M99,8 L190,110 L99,212 L8,110 Z"
         fill="none"
         stroke="url(#logoShineGradient)"
-        strokeWidth="6"
+        strokeWidth="8"
         strokeLinecap="round"
         pathLength={100}
         style={{
-          strokeDasharray: "16 84",
-          animation: `iamantum-logo-shine 5s ease-in-out ${delay}s infinite`,
+          strokeDasharray: "20 80",
+          animation: `iamantum-logo-shine 5s ease-in-out ${delay}s infinite alternate`,
         }}
       />
       <style>{`
