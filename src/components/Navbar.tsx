@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import ThemeToggle from "./ThemeToggle";
+import LogoShine from "./LogoShine";
 
 const links = [
   { href: "#servicios", label: "Servicios" },
@@ -48,22 +49,28 @@ export default function Navbar() {
             onClick={() => setOpen(false)}
             className="flex shrink-0 items-center gap-3"
           >
-            <Image
-              src="/logo-icon-light-lines.png"
-              alt="IAmantum"
-              width={198}
-              height={220}
-              priority
-              className="show-dark h-11 w-auto sm:h-12 lg:h-14"
-            />
-            <Image
-              src="/logo-icon-dark.png"
-              alt="IAmantum"
-              width={198}
-              height={220}
-              priority
-              className="show-light h-11 w-auto sm:h-12 lg:h-14"
-            />
+            <span
+              className="relative block h-11 sm:h-12 lg:h-14"
+              style={{ aspectRatio: "9 / 10" }}
+            >
+              <Image
+                src="/logo-icon-light-lines.png"
+                alt="IAmantum"
+                width={198}
+                height={220}
+                priority
+                className="show-dark absolute inset-0 h-full w-full"
+              />
+              <Image
+                src="/logo-icon-dark.png"
+                alt="IAmantum"
+                width={198}
+                height={220}
+                priority
+                className="show-light absolute inset-0 h-full w-full"
+              />
+              <LogoShine />
+            </span>
             <span className="font-display text-xl font-semibold tracking-tight text-[var(--fg)] sm:text-2xl">
               IAmantum
             </span>
