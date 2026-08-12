@@ -26,20 +26,20 @@ export default function LogoShine() {
         d="M99,8 L190,110 L99,212 L8,110 Z"
         fill="none"
         stroke="url(#logoShineGradient)"
-        strokeWidth="3"
+        strokeWidth="6"
         strokeLinecap="round"
         pathLength={100}
         style={{
           strokeDasharray: "16 84",
-          animation: `iamantum-logo-shine 8s ease-in-out ${delay}s infinite`,
+          animation: `iamantum-logo-shine 5s ease-in-out ${delay}s infinite`,
         }}
       />
       <style>{`
         @keyframes iamantum-logo-shine {
           0% { stroke-dashoffset: 100; opacity: 0; }
-          4% { opacity: 0.9; }
-          34% { opacity: 0.9; }
-          38% { stroke-dashoffset: 0; opacity: 0; }
+          6% { opacity: 1; }
+          54% { opacity: 1; }
+          60% { stroke-dashoffset: 0; opacity: 0; }
           100% { stroke-dashoffset: 0; opacity: 0; }
         }
       `}</style>
