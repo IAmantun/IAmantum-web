@@ -11,7 +11,7 @@ export default function Cta() {
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
-            href="https://wa.me/5491124549051"
+            href="https://wa.me/5491172367861"
             className="rounded-full bg-brand-blue px-8 py-3.5 text-sm font-semibold text-white shadow-lg shadow-brand-blue/30 transition hover:bg-brand-cyan hover:text-brand-dark"
           >
             Escribir por WhatsApp

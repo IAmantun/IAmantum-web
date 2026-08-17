@@ -75,8 +75,8 @@ export default function Footer() {
               >
                 <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5Z" />
               </svg>
-              <a href="https://wa.me/5491124549051" className="transition hover:text-[var(--fg)]">
-                WhatsApp: +54 9 11 2454-9051
+              <a href="https://wa.me/5491172367861" className="transition hover:text-[var(--fg)]">
+                WhatsApp: +54 9 11 7236-7861
               </a>
             </li>
             <li className="flex items-center justify-center gap-2 lg:justify-start">
