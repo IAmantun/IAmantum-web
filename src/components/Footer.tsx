@@ -21,7 +21,7 @@ export default function Footer() {
               className="show-light h-11 w-auto"
             />
             <span className="font-display text-lg font-semibold text-[var(--fg)]">
-              IAmantum
+              <span className="text-brand-blue">IA</span>mantum
             </span>
           </div>
           <p className="max-w-xs text-center text-sm text-[var(--fg-50)] lg:text-left">

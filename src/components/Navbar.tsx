@@ -72,7 +72,7 @@ export default function Navbar() {
               <LogoShine />
             </span>
             <span className="font-display text-xl font-semibold tracking-tight text-[var(--fg)] sm:text-2xl">
-              IAmantum
+              <span className="text-brand-blue">IA</span>mantum
             </span>
           </a>
         </div>
