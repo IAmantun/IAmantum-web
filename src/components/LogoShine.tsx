@@ -31,16 +31,14 @@ export default function LogoShine() {
         pathLength={100}
         style={{
           strokeDasharray: "20 80",
-          animation: `iamantum-logo-shine 5s ease-in-out ${delay}s infinite`,
+          opacity: 1,
+          animation: `iamantum-logo-shine 4s linear ${delay}s infinite`,
         }}
       />
       <style>{`
         @keyframes iamantum-logo-shine {
-          0% { stroke-dashoffset: 100; opacity: 0; }
-          6% { opacity: 1; }
-          54% { opacity: 1; }
-          60% { stroke-dashoffset: 0; opacity: 0; }
-          100% { stroke-dashoffset: 0; opacity: 0; }
+          0% { stroke-dashoffset: 100; }
+          100% { stroke-dashoffset: 0; }
         }
       `}</style>
     </svg>
