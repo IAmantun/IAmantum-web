@@ -31,7 +31,7 @@ export default function LogoShine() {
         pathLength={100}
         style={{
           strokeDasharray: "20 80",
-          animation: `iamantum-logo-shine 5s ease-in-out ${delay}s infinite alternate`,
+          animation: `iamantum-logo-shine 5s ease-in-out ${delay}s infinite`,
         }}
       />
       <style>{`
