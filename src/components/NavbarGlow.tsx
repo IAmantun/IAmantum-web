@@ -30,7 +30,7 @@ export default function NavbarGlow() {
         strokeLinecap="round"
         pathLength={100}
         style={{
-          strokeDasharray: "20 80",
+          strokeDasharray: "25 75",
           animation: "navbar-glow-sweep 2s linear infinite alternate",
         }}
       />
