@@ -3,7 +3,7 @@ export default function NavbarGlow() {
     <>
       <span
         aria-hidden="true"
-        className="pointer-events-none absolute top-full mt-1.5 h-[3px] w-1/3 rounded-full blur-[2px]"
+        className="pointer-events-none absolute top-full mt-0 h-[3px] w-1/3 rounded-full blur-[2px]"
         style={{
           background: "linear-gradient(90deg, transparent, #00BFFF, transparent)",
           animation: "navbar-glow-sweep 3.5s ease-in-out infinite alternate",
