@@ -2,7 +2,7 @@ export default function NavbarGlow() {
   return (
     <svg
       aria-hidden="true"
-      className="pointer-events-none absolute left-0 top-full h-[3px] w-full overflow-visible"
+      className="pointer-events-none absolute left-0 top-full -mt-1.5 h-[3px] w-full overflow-visible"
       viewBox="0 0 100 3"
       preserveAspectRatio="none"
     >
