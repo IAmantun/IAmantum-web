@@ -35,7 +35,7 @@ export default function NavbarGlow() {
   return (
     <span
       aria-hidden="true"
-      className="comet-track pointer-events-none absolute top-full -mt-1.5 h-[3px] w-full overflow-hidden rounded-full bg-black/25"
+      className="comet-track pointer-events-none absolute left-0 top-full -mt-1.5 h-[3px] w-full overflow-hidden rounded-full bg-black/25"
     >
       <span className="comet" />
 
