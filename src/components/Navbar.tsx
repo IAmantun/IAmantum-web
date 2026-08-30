@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import ThemeToggle from "./ThemeToggle";
 import LogoShine from "./LogoShine";
+import NavbarShine from "./NavbarShine";
 
 const links = [
   { href: "#servicios", label: "Servicios" },
@@ -71,8 +72,11 @@ export default function Navbar() {
               />
               <LogoShine />
             </span>
-            <span className="font-display text-xl font-semibold tracking-tight text-[var(--fg)] sm:text-2xl">
-              <span className="text-[var(--accent-text)]">IA</span>mantum
+            <span className="relative inline-block">
+              <span className="font-display text-xl font-semibold tracking-tight text-[var(--fg)] sm:text-2xl">
+                <span className="text-[var(--accent-text)]">IA</span>mantum
+              </span>
+              <NavbarShine />
             </span>
           </a>
         </div>
