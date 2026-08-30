@@ -22,15 +22,14 @@ export default function NavbarGlow() {
 
     const tick = (t: number) => {
       const cycle = t % period;
-      const goingRight = cycle < LEG_DURATION_MS;
-      const legT = goingRight ? cycle : cycle - LEG_DURATION_MS;
-      const legProgress = legT / LEG_DURATION_MS; // 0 → 1 within the leg, constant speed
+      const theta = (cycle / period) * Math.PI * 2;
 
-      // head travels 0 → 100 while going right, 100 → 0 while going left
-      const headPercent = goingRight ? legProgress * 100 : 100 - legProgress * 100;
+      // smooth sinusoidal easing: zero velocity right at each edge, matching
+      // the classic scanner's soft turnaround instead of a sharp triangle wave
+      const headPercent = 50 - 50 * Math.cos(theta);
+      const goingRight = cycle < period / 2;
       const direction: 1 | -1 = goingRight ? 1 : -1;
 
-      // instant reversal at each edge: head always leads, tail fades in behind it
       el.style.transform = direction === 1 ? "scaleX(1)" : "scaleX(-1)";
       const boxLeft = direction === 1 ? headPercent - TAIL_LENGTH : headPercent;
       el.style.left = `${boxLeft}%`;
@@ -53,6 +52,7 @@ export default function NavbarGlow() {
           "linear-gradient(90deg, transparent 0%, rgba(0,191,255,0.15) 25%, #00BFFF 75%, #eaf9ff 100%)",
         boxShadow: "0 0 6px 1px rgba(0,191,255,0.8)",
         transform: "scaleX(1)",
+        transition: "transform 0.3s ease-in-out",
       }}
     />
   );
