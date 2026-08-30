@@ -23,7 +23,7 @@ export default function NavbarShine() {
           background-clip: text;
           color: transparent;
           filter: drop-shadow(0 0 6px rgba(0, 191, 255, 0.55));
-          animation: navbar-shine-sweep 4.5s linear infinite;
+          animation: navbar-shine-sweep 4.5s linear infinite alternate;
         }
 
         @keyframes navbar-shine-sweep {
