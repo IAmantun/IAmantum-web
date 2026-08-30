@@ -9,15 +9,20 @@ export default function NavbarShine() {
         .navbar-shine {
           background-image: linear-gradient(
             100deg,
-            transparent 35%,
-            rgba(255, 255, 255, 0.95) 50%,
-            transparent 65%
+            transparent 30%,
+            rgba(0, 0, 0, 0.35) 44%,
+            rgba(0, 191, 255, 0.9) 48%,
+            #ffffff 50%,
+            rgba(0, 191, 255, 0.9) 52%,
+            rgba(0, 0, 0, 0.35) 56%,
+            transparent 70%
           );
           background-size: 250% 100%;
           background-repeat: no-repeat;
           -webkit-background-clip: text;
           background-clip: text;
           color: transparent;
+          filter: drop-shadow(0 0 6px rgba(0, 191, 255, 0.55));
           animation: navbar-shine-sweep 4.5s linear infinite;
         }
 
