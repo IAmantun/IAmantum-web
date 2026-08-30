@@ -31,7 +31,7 @@ export default function NavbarGlow() {
         pathLength={100}
         style={{
           strokeDasharray: "20 80",
-          animation: "navbar-glow-sweep 4s linear infinite",
+          animation: "navbar-glow-sweep 2s linear infinite alternate",
         }}
       />
       <style>{`
