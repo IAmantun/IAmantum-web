@@ -72,7 +72,7 @@ export default function Navbar() {
               />
               <LogoShine />
             </span>
-            <span className="relative font-display text-xl font-semibold tracking-tight text-[var(--fg)] sm:text-2xl">
+            <span className="relative inline-block font-display text-xl font-semibold tracking-tight text-[var(--fg)] sm:text-2xl">
               <span className="text-[var(--accent-text)]">IA</span>mantum
               <NavbarGlow />
             </span>
