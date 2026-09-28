@@ -7,7 +7,7 @@ export default function Hero() {
         </span>
 
         <h1 className="font-display max-w-3xl text-4xl font-semibold leading-tight text-[var(--fg)] sm:text-5xl md:text-6xl">
-          ¿Cuántas <span className="gradient-text">ventas</span> estás perdiendo
+          ¿Cuántas <span className="gradient-text">Ventas</span> estás perdiendo
           por no hacer seguimiento?
         </h1>
 
