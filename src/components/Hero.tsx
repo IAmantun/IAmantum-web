@@ -7,9 +7,8 @@ export default function Hero() {
         </span>
 
         <h1 className="font-display max-w-3xl text-4xl font-semibold leading-tight text-[var(--fg)] sm:text-5xl md:text-6xl">
-          Automatiza tu negocio con{" "}
-          <span className="gradient-text">inteligencia artificial</span> y vende sin
-          soltar el celular
+          ¿Cuántas <span className="gradient-text">ventas</span> estás perdiendo
+          por no hacer seguimiento?
         </h1>
 
         <p className="mt-6 max-w-2xl text-lg text-[var(--fg-70)]">
