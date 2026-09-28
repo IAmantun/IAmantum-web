@@ -12,9 +12,9 @@ export default function Hero() {
         </h1>
 
         <p className="mt-6 max-w-2xl text-lg text-[var(--fg-70)]">
-          Diseñamos agentes de IA, sistemas de CRM y páginas web que trabajan por vos:
-          atienden clientes, organizan tus ventas y muestran tu marca de forma
-          profesional, todo el tiempo.
+          Centralizamos tus contactos, automatizamos seguimientos y conectamos
+          WhatsApp, CRM e inteligencia artificial para que tu equipo responda
+          mejor y venda con más orden.
         </p>
 
         <div className="mt-10 flex flex-col gap-4 sm:flex-row">
