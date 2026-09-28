@@ -3,9 +3,9 @@ import "./globals.css";
 import NodeNetwork from "@/components/NodeNetwork";
 
 export const metadata: Metadata = {
-  title: "IAmantum — Automatización con Agentes IA, CRM y Páginas Web",
+  title: "IAmantum — CRM y WhatsApp, Automatizaciones, Agentes IA y Páginas Web",
   description:
-    "Diseñamos agentes de IA, sistemas CRM y páginas web que trabajan por tu negocio: atienden clientes, organizan tus ventas y muestran tu marca de forma profesional, todo el tiempo.",
+    "Centralizamos tus contactos, automatizamos seguimientos y conectamos WhatsApp, CRM e inteligencia artificial para que tu equipo responda mejor y venda con más orden.",
 };
 
 export default function RootLayout({
