@@ -3,7 +3,7 @@ export default function Hero() {
     <section id="top" className="section-glow relative overflow-hidden pt-40 pb-28">
       <div className="mx-auto flex max-w-6xl flex-col items-center px-6 text-center">
         <span className="mb-6 rounded-full border border-[var(--border-10)] bg-[var(--bg-5)] px-4 py-1.5 text-xs font-medium uppercase tracking-widest text-[var(--accent-text)]">
-          CRM y WhatsApp · Automatizaciones · Agentes IA · Páginas Web
+          WhatsApp + CRM ·Automatizaciones · Agentes IA · Páginas Web
         </span>
 
         <h1 className="font-display max-w-3xl text-4xl font-semibold leading-tight text-[var(--fg)] sm:text-5xl md:text-6xl">
