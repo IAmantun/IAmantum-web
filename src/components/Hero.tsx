@@ -22,7 +22,7 @@ export default function Hero() {
             href="#contacto"
             className="rounded-full bg-brand-blue px-8 py-3.5 text-sm font-semibold text-white shadow-lg shadow-brand-blue/30 transition hover:bg-brand-cyan hover:text-brand-dark"
           >
-            Agenda una consultoría gratuita
+            Solicitar Diagnóstico GRATUITO
           </a>
           <a
             href="#servicios"
